@@ -61,4 +61,7 @@ class Board
             Console.ForegroundColor = ConsoleColor.Black;
         }
     }
+
+    public static Piece GetPiece(int row, int col) { return board[row, col]; }
+
 }//class Board

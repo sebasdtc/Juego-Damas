@@ -1,0 +1,16 @@
+/home/sebastian/Documentos/cursoC#/clases/clase01/bin/Debug/net5.0/clase01
+/home/sebastian/Documentos/cursoC#/clases/clase01/bin/Debug/net5.0/clase01.deps.json
+/home/sebastian/Documentos/cursoC#/clases/clase01/bin/Debug/net5.0/clase01.runtimeconfig.json
+/home/sebastian/Documentos/cursoC#/clases/clase01/bin/Debug/net5.0/clase01.runtimeconfig.dev.json
+/home/sebastian/Documentos/cursoC#/clases/clase01/bin/Debug/net5.0/clase01.dll
+/home/sebastian/Documentos/cursoC#/clases/clase01/bin/Debug/net5.0/ref/clase01.dll
+/home/sebastian/Documentos/cursoC#/clases/clase01/bin/Debug/net5.0/clase01.pdb
+/home/sebastian/Documentos/cursoC#/clases/clase01/obj/Debug/net5.0/clase01.csproj.AssemblyReference.cache
+/home/sebastian/Documentos/cursoC#/clases/clase01/obj/Debug/net5.0/clase01.GeneratedMSBuildEditorConfig.editorconfig
+/home/sebastian/Documentos/cursoC#/clases/clase01/obj/Debug/net5.0/clase01.AssemblyInfoInputs.cache
+/home/sebastian/Documentos/cursoC#/clases/clase01/obj/Debug/net5.0/clase01.AssemblyInfo.cs
+/home/sebastian/Documentos/cursoC#/clases/clase01/obj/Debug/net5.0/clase01.csproj.CoreCompileInputs.cache
+/home/sebastian/Documentos/cursoC#/clases/clase01/obj/Debug/net5.0/clase01.dll
+/home/sebastian/Documentos/cursoC#/clases/clase01/obj/Debug/net5.0/ref/clase01.dll
+/home/sebastian/Documentos/cursoC#/clases/clase01/obj/Debug/net5.0/clase01.pdb
+/home/sebastian/Documentos/cursoC#/clases/clase01/obj/Debug/net5.0/clase01.genruntimeconfig.cache

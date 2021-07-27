@@ -62,6 +62,37 @@ class Board
         }
     }
 
+    // Funcion para obtener la pieza de una posicion dada de la matriz
     public static Piece GetPiece(int row, int col) { return board[row, col]; }
+
+    // Funcion para comprobar cuantas piezas hay de un tipo dado en toda una diagonal
+    // recible 2 parametros posiciones iniciales y 2 parametros hasta donde recorre y un parametro del tipo a buscar
+    public static int NumberPieces(int rowInit, int colInit, int rowEnd, int colEnd, ConsoleColor tag)
+    {
+        int count = 0, i = 0, j = 0;
+        if (rowEnd - rowInit >= 0) i = 1;
+        else i = -1;
+        if (colEnd - colInit >= 0) j = 1;
+        else j = -1;
+        for (int row = rowInit, col = colInit; row < rowEnd && col < colEnd; row += i, col += j)
+            if (board[row, col].Color == tag) count++;
+
+        return count;
+    }
+
+    // Funcion para comprobar cuantas piezas hay de un tipo dado en toda una diagonal
+    // recible 2 parametros posiciones iniciales y 2 parametros hasta donde recorre y un parametro del tipo a buscar    
+    public static int NumberOfOpposingPieces(int rowInit, int colInit, int rowEnd, int colEnd, ConsoleColor tag)
+    {
+        int count = 0, i = 0, j = 0;
+        if (rowEnd - rowInit >= 0) i = 1;
+        else i = -1;
+        if (colEnd - colInit >= 0) j = 1;
+        else j = -1;
+        for (int row = rowInit, col = colInit; row < rowEnd && col < colEnd; row += i, col += j)
+            if (board[row, col].Color != tag && board[row, col].Color != ConsoleColor.Black) count++;
+
+        return count;
+    }
 
 }//class Board
